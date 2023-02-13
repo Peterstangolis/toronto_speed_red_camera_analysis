@@ -286,7 +286,7 @@ with tab3:
     df_tickets_years =  df_tickets_years.sort_values(by=0, ascending=False)
     #st.markdown("<br>", unsafe_allow_html=True)
     st.markdown(
-        f"<p style = 'font-size:35px;color:#f2f2f2;border-left: 3px solid {light_colors[2]};text-align:center;"
+        f"<p style = 'font-size:35px;color:#f2f2f2;border-left: 3px solid {light_colors[2]};text-align:left;padding-left:30px;"
         f"margin-left:5px;padding-left:30px; '>HIGHEST NUMBERS OF TICKETS</p>",
         unsafe_allow_html=True)
     st.markdown("<p style='font-size:22px;color:#f2f2f2;margin-left:10px;text-align:center;'>TOTAL CHARGES AT EACH LOCATION SINCE THE PROGRAM BEGAN </p>", unsafe_allow_html=True)
