@@ -210,9 +210,8 @@ with tab3:
     # SECTION 1
     #st.markdown(f"<hr style=' border-top: 3px dashed {light_colors[2]};margin-left:5px;margin-right:5px; '> ", unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
-    st.markdown(f"<p style = 'font-size:35px;color:#f2f2f2;border-left: 3px solid {light_colors[0]};text-align:center;margin-left:5px;margin-right:5px '>TOP TICKET PRODUCING INTERSECTION</p>", unsafe_allow_html=True)
-    st.markdown("<br>", unsafe_allow_html=True)
-    st.markdown("<p style='font-size:25px;color:#f2f2f2;text-align:center;'>TOTAL CHARGES FOR THE YEAR </p>", unsafe_allow_html=True)
+    st.markdown(f"<p style = 'font-size:35px;color:#f2f2f2;border-left: 3px solid {light_colors[0]};text-align:center;margin-left:5px; '>TOP TICKET PRODUCING INTERSECTION</p>", unsafe_allow_html=True)
+    st.markdown("<p style='font-size:22px;color:#f2f2f2;text-align:center;'>TOTAL CHARGES FOR THE YEAR </p>", unsafe_allow_html=True)
 
     st.markdown(f"<h5 style='border-radius:5px; margin-left:100px; margin-right:100px; padding:10px; text-align:center; color:#f2f2f2; font-size:31px;border-style:solid;"
                 f"background-image: linear-gradient(to right, {city_colors[1]}cc, {city_colors[1]}cc,{city_colors[0]}cc);'>  {overall_intersection} </h5>", unsafe_allow_html=True)
@@ -288,9 +287,9 @@ with tab3:
     #st.markdown("<br>", unsafe_allow_html=True)
     st.markdown(
         f"<p style = 'font-size:35px;color:#f2f2f2;border-left: 3px solid {light_colors[2]};text-align:center;"
-        f"margin-left:5px;margin-right:5px;padding-left:50px; '>LOCATIONS WITH THE HIGHEST NUMBERS OF TICKETS</p>",
+        f"margin-left:5px;margin-right:5px;padding-left:50px; '>HIGHEST NUMBERS OF TICKETS</p>",
         unsafe_allow_html=True)
-    st.markdown("<p style='font-size:25px;color:#f2f2f2;margin-left:60px;text-align:center;'>TOTAL CHARGES AT EACH LOCATION SINCE THE PROGRAM BEGAN </p>", unsafe_allow_html=True)
+    st.markdown("<p style='font-size:22px;color:#f2f2f2;margin-left:60px;text-align:center;'>TOTAL CHARGES AT EACH LOCATION SINCE THE PROGRAM BEGAN </p>", unsafe_allow_html=True)
 
     st.markdown("<br>", unsafe_allow_html=True)
     col18, col19, col20 = st.columns((2, 0.5, 0.5))
