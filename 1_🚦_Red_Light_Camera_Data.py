@@ -287,7 +287,7 @@ with tab3:
     #st.markdown("<br>", unsafe_allow_html=True)
     st.markdown(
         f"<p style = 'font-size:35px;color:#f2f2f2;border-left: 3px solid {light_colors[2]};text-align:center;"
-        f"margin-left:5px;margin-right:5px;padding-left:50px; '>HIGHEST NUMBERS OF TICKETS</p>",
+        f"margin-left:5px;margin-right:5px;padding-left:40px; '>HIGHEST NUMBERS OF TICKETS</p>",
         unsafe_allow_html=True)
     st.markdown("<p style='font-size:22px;color:#f2f2f2;margin-left:40px;text-align:center;'>TOTAL CHARGES AT EACH LOCATION SINCE THE PROGRAM BEGAN </p>", unsafe_allow_html=True)
 
