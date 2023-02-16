@@ -37,7 +37,7 @@ speed_camera_present = datetime.datetime.today().strftime("%B %#d, %Y")
 
 # Main page
 st.markdown(
-    f"<H5 style='border-radius:40px; padding:18px; text-align:center; color:#64721f; font-size:40px;background-image: linear-gradient(to right, {city_colors[1]}, {city_colors[0]}cc, {city_colors[2]}cc);'>"
+    f"<H5 style='border-radius:40px; padding:15px; text-align:center; color:#64721f; font-size:40px;background-image: linear-gradient(to right, {city_colors[1]}, {city_colors[0]}cc, {city_colors[2]}cc);'>"
     f" SPEED <mark style = 'font-family:liberation serif; font-size:37px; color:#F2F2F2; background-color:transparent;'>CAMERAS IN TORONTO </mark></H5>",
     unsafe_allow_html=True)
 
