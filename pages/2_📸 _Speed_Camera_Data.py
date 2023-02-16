@@ -148,7 +148,7 @@ with tab2:
 with tab3:
     st.markdown(f"<h4 style='font-size:45px;color:{city_colors[0]};text-align:center; '> MONTHLY TICKET OVERVIEW </h4>", unsafe_allow_html=True)
     st.markdown(
-        f"<p style='font-size:24px;color:{city_colors[3]};text-align:center;border-left: 1px solid {city_colors[0]};border-right: 1px solid {city_colors[0]};margin-left:150px;margin-right:150px;"
+        f"<p style='font-size:20px;color:{city_colors[3]};text-align:center;border-left: 1px solid {city_colors[0]};border-right: 1px solid {city_colors[0]};margin-left:50px;margin-right:50px;"
         f" '>HIGHEST TOTAL TICKETS FOR THE MONTH </p>",
         unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
