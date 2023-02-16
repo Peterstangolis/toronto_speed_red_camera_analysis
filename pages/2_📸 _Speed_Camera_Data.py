@@ -191,7 +191,7 @@ with tab3:
 
 with tab4:
     st.markdown(f"<h4 style='font-size:40px;color:{city_colors[3]};text-align:center; '>TOP 10 LOCATIONS</h4>", unsafe_allow_html=True)
-    st.markdown(f"<p style='font-size:20px;color:{city_colors[3]};text-align:center;border-left: 1px solid {city_colors[0]};border-right: 1px solid {city_colors[0]};margin-left:50px;margin-right:50px;padding:10px;"
+    st.markdown(f"<p style='font-size:20px;color:{city_colors[3]};text-align:center;border-left: 1px solid {city_colors[0]};border-right: 1px solid {city_colors[0]};margin-left:40px;margin-right:40px;padding:10px;"
                 f" '>HIGHEST DAILY TICKET CHARGES SINCE THE PROGRAM BEGAN </p>",
                 unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
