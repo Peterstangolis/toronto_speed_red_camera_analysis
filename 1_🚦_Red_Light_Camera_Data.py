@@ -59,19 +59,19 @@ with tab1:
 
     col1, col2 = st.columns((2, 1))
     with col1:
-        st.markdown(f"<p style = 'font-size:40px;color:#EBE2CC;border-left: 3px solid {light_colors[0]}; padding:10px; '> TOTAL PROGRAM YEARS</p>", unsafe_allow_html=True)
+        st.markdown(f"<p style = 'font-size:35px;color:#EBE2CC;border-left: 3px solid {light_colors[0]}; padding:10px; '> TOTAL PROGRAM YEARS</p>", unsafe_allow_html=True)
     with col2:
         st.markdown(f"<p style = 'font-size:38px;color:{light_colors[0]};padding:10px;  '> {len(new_columns)}</p>", unsafe_allow_html=True)
 
     col3, col4 = st.columns((2, 1))
     with col3:
-        st.markdown(f"<p style = 'font-size:40px;color:#EBE2CC;border-left: 3px solid {light_colors[1]}; padding:10px; '> TOTAL TICKETS ISSUED </p>", unsafe_allow_html=True)
+        st.markdown(f"<p style = 'font-size:35px;color:#EBE2CC;border-left: 3px solid {light_colors[1]}; padding:10px; '> TOTAL TICKETS ISSUED </p>", unsafe_allow_html=True)
     with col4:
         st.markdown(f"<p style = 'font-size:38px;color:{light_colors[1]};padding:10px; '> {round(total_tickets_issued):,}</p>", unsafe_allow_html=True)
 
     col5, col6 = st.columns((2, 1))
     with col5:
-        st.markdown(f"<p style = 'font-size:40px;color:#EBE2CC;border-left: 3px solid {light_colors[2]}; padding:10px; '> PROJECTED CHARGES</p>", unsafe_allow_html=True)
+        st.markdown(f"<p style = 'font-size:35px;color:#EBE2CC;border-left: 3px solid {light_colors[2]}; padding:10px; '> PROJECTED CHARGES</p>", unsafe_allow_html=True)
     with col6:
         st.markdown(f"<p style = 'font-size:38px;color:{light_colors[2]};padding:10px; '> ${projected_charges}M</p>", unsafe_allow_html=True)
 
