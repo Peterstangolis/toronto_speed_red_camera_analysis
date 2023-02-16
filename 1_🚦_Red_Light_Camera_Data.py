@@ -78,7 +78,7 @@ with tab1:
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown(f"<p style = 'font-size:32px;color:#ABA595;text-align:center;font-weight:bold; '> TICKET COST BREAKDOWN </p>", unsafe_allow_html=True)
     st.markdown(
-        f"<p style = 'font-size:14px;color:#ABA595;text-align:center;border-left: 1px solid #ABA595;border-right: 1px solid #ABA595;margin-left:130px;margin-right:130px;"
+        f"<p style = 'font-size:14px;color:#ABA595;text-align:center;border-left: 1px solid #ABA595;border-right: 1px solid #ABA595;margin-left:50px;margin-right:50px;"
         f" '>The City of TORONTO collects the FINE AMOUNT & COURT COSTS<br> The VICTIM SURCHARGE goes to the Province. </p>",
         unsafe_allow_html=True)
 
