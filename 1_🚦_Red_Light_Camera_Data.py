@@ -311,7 +311,7 @@ with tab3:
         col_one, col_two, col_three = st.columns((2, .5, .5))
         with col_one:
             st.markdown(
-                f"<h5 style='border-radius:5px; margin-left:0px; margin-right:17px;margin-bottom:3px; padding:16px; text-align:center; color:#f2f2f2; font-size:20px;border-style: solid; "
+                f"<h5 style='border-radius:5px; margin-left:0px; margin-right:15px;margin-bottom:3px; padding:12px; text-align:center; color:#f2f2f2; font-size:18px;border-style: solid; "
                 f"font-style:bold;background-image: linear-gradient(to right, {city_colors[1]}, {city_colors[1]}cc,{city_colors[1]}cc);'>  {index_list[i]} </h5>",
                 unsafe_allow_html=True)
         with col_two:
