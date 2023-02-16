@@ -44,7 +44,7 @@ df_tickets_years = total_tickets_street.to_frame().join(df_years_service)
 
 #### ---- MAIN PAGE ---- ####
 st.markdown(
-    f"<H5 style='border-radius:25px; padding:20px; text-align:center; color:#f2f2f2; font-size:39px;background-image: linear-gradient(to right, {light_colors[0]}, #F7831Ecc, #239E70cc);'> RED LIGHT <mark style = 'font-family:liberation serif; font-size:37px; color:#F2F2F2; background-color:transparent;'>CAMERAS IN TORONTO </mark></H5>",
+    f"<H5 style='border-radius:25px; padding:17px; text-align:center; color:#f2f2f2; font-size:35px;background-image: linear-gradient(to right, {light_colors[0]}, #F7831Ecc, #239E70cc);'> RED LIGHT <mark style = 'font-family:liberation serif; font-size:37px; color:#F2F2F2; background-color:transparent;'>CAMERAS IN TORONTO </mark></H5>",
     unsafe_allow_html=True)
 st.markdown("<br>", unsafe_allow_html=True)
 st.markdown("<br>", unsafe_allow_html=True)
