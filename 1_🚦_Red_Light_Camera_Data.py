@@ -198,7 +198,7 @@ with tab2:
 
     ## Timeline plot
     st.markdown(
-        f"<p style = 'font-size:40px;color:{city_colors[0]};border-left: 3px solid {city_colors[0]}; padding-left:25px;margin-left:80px; '> TORONTO MAYORS </p>",
+        f"<p style = 'font-size:35px;color:{city_colors[0]};border-left: 3px solid {city_colors[0]}; padding-left:25px;margin-left:80px; '> TORONTO MAYORS </p>",
         unsafe_allow_html=True)
 
     mayor_fig = mayors_plot()
