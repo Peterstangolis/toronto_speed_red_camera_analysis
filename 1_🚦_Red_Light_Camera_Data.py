@@ -108,7 +108,7 @@ with tab2:
 
     #st.markdown(f"<hr style = 'border-bottom: 2px solid {light_colors[0]}; width: 20%;'> ", unsafe_allow_html=True)
     #st.markdown(f"<p style = 'font-size:40px;color:{light_colors[0]};padding-left:15px; '> ACTIVE CAMERAS BY YEAR </p>", unsafe_allow_html=True)
-    st.markdown(f"<p style = 'font-size:40px;color:{light_colors[0]};border-left: 3px solid {light_colors[0]}; padding-left:25px;margin-left:80px; '> *ACTIVE CAMERAS BY YEAR </p>", unsafe_allow_html=True)
+    st.markdown(f"<p style = 'font-size:35px;color:{light_colors[0]};border-left: 3px solid {light_colors[0]}; padding-left:25px;margin-left:80px; '> *ACTIVE CAMERAS BY YEAR </p>", unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
 
     ## PLOT 1
@@ -134,7 +134,7 @@ with tab2:
     st.markdown("<br>", unsafe_allow_html=True)
 
 
-    st.markdown(f"<p style = 'font-size:40px;color:{light_colors[1]};border-left: 3px solid {light_colors[1]}; padding-left:25px;margin-left:80px; '> TICKETS ISSUED </p>", unsafe_allow_html=True)
+    st.markdown(f"<p style = 'font-size:35px;color:{light_colors[1]};border-left: 3px solid {light_colors[1]}; padding-left:25px;margin-left:80px; '> TICKETS ISSUED </p>", unsafe_allow_html=True)
     tickets_list = []
     total_fines_list = []
     years_list = []
@@ -174,7 +174,7 @@ with tab2:
 
 
     ## PLOT 3
-    st.markdown(f"<p style = 'font-size:40px;color:{light_colors[2]};border-left: 3px solid {light_colors[2]}; padding-left:25px;margin-left:80px; '> TOTAL FINES </p>", unsafe_allow_html=True)
+    st.markdown(f"<p style = 'font-size:35px;color:{light_colors[2]};border-left: 3px solid {light_colors[2]}; padding-left:25px;margin-left:80px; '> TOTAL FINES </p>", unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
 
     colors = ['#ABA595' if (s < max(total_fines_list)) else light_colors[2]  for s in total_fines_list]
