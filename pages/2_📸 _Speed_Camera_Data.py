@@ -214,7 +214,7 @@ with tab4:
         with colw:
             #st.markdown(row["Location*"])
             st.markdown(
-                f"<h5 style='border-radius:5px; margin-left:0px; margin-right:10px;margin-bottom:2px; padding:14px; text-align:center; color:#EBE2CC; font-size:18px;border-style: solid; "
+                f"<h5 style='border-radius:5px; margin-left:0px; margin-right:10px;margin-bottom:2px; padding:10px; text-align:center; color:#EBE2CC; font-size:16px;border-style: solid; "
                 f"font-style:bold;background-image: linear-gradient(to right, {city_colors[1]}, {city_colors[1]}cc,{city_colors[1]}cc);'>  {row['Location*']} </h5>",
                 unsafe_allow_html=True)
         with colx:
